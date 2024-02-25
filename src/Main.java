@@ -18,6 +18,7 @@ public class Main {
         Scanner scanner1 = new Scanner(System.in);
         System.out.println("enter the amount of money you want to deposit: ");
         int deposited = scanner1.nextInt();
+        person1.deposit(deposited);
 
     }
 }
