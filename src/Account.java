@@ -19,6 +19,11 @@ public class Account {
         System.out.println("The amount you deposited was " + amount +
                 " and the new balance after your deposit is: " + balance);
     }
+    public void erning(int take) {
+        balance -= take;
+        System.out.println("Your total amount you have after the withdrawal is " + balance +", and you took "+ take + " euros");
+
+    }
 }
 
 
